@@ -1,9 +1,15 @@
+html {
+    min-height: 100vh;
+}
+
 body {
-    height: 100vh;
+    position: relative;
+    min-height: 100vh;
     background: linear-gradient(135deg, $blue-light, $blue-dark);
     color: $white;
     text-shadow: 1px 1px 0 #212121;
     font-family: 'Spectral', serif;
+    overflow: hidden;
 }
 
 ul {
