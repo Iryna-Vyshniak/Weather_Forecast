@@ -1,1 +1,13 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, $blue-light, $blue-dark);
+    color: $white;
+    text-shadow: 1px 1px 0 #212121;
+    font-family: 'Spectral', serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
