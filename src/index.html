@@ -13,23 +13,25 @@
     <link rel="stylesheet" href="./sass/index.scss" />
   </head>
   <body>
-    <div class="weather">
-      <h3 class="weather__title">Weather Forecast</h3>
-      <div class="shape shape-1"></div>
-      <div class="shape shape-2"></div>
-      <div class="weather__container">
-        <!-- form -->
-        <form action="submit" class="weather__form-search" data-weather>
-          <input
-            type="text"
-            name="query"
-            data-query
-            placeholder="Enter a city name..."
-          />
-          <button type="submit" class="weather__search-btn">Search</button>
-        </form>
-        <!-- result -->
-        <ul class="weather__list" data-list></ul>
+    <div class="wrapper">
+      <div class="weather">
+        <h3 class="weather__title">Weather Forecast</h3>
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="weather__container">
+          <!-- form -->
+          <form action="submit" class="weather__form-search" data-weather>
+            <input
+              type="text"
+              name="query"
+              data-query
+              placeholder="Enter a city name..."
+            />
+            <button type="submit" class="weather__search-btn">Search</button>
+          </form>
+          <!-- result -->
+          <ul class="weather__list" data-list></ul>
+        </div>
       </div>
     </div>
     <script type="module" src="./index.js"></script>
