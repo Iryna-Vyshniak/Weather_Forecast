@@ -1,8 +1,8 @@
 import { format } from 'date-fns';
 
 export function createMarkup({ name, main, sys, clouds, weather }) {
-  const sunset = format(new Date(sys.sunset * 1000), 'H:m');
-  const sunrise = format(new Date(sys.sunrise * 1000), 'H:m');
+  const sunset = format(new Date(sys.sunset * 1000), 'H : m');
+  const sunrise = format(new Date(sys.sunrise * 1000), 'H : m');
   const date = format(Date.now(), 'HH:mm BBBB cccc do MMMM yyyy');
 
   return /*html*/ `<li class="weather__item">
@@ -16,10 +16,10 @@ export function createMarkup({ name, main, sys, clouds, weather }) {
          </li>
           <li class="weather__item">
          
-              <p class="sunrise-time">Sunrise: ${sunrise}</p>
+              <p class="sunrise-time">Sunrise:  ${sunrise}</p>
           </li>
           <li class="weather__item">
-              <p class="sunset-time">Sunset: ${sunset}</p>
+              <p class="sunset-time">Sunset:  ${sunset}</p>
           </li>
           <li class="weather__item">
               <p class="clouds">Clouds: ${clouds.all}%</p>
