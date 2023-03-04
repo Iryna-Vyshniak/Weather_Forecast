@@ -25,15 +25,15 @@ export function createMarkup({ name, main, sys, clouds, weather }) {
               <p class="clouds">Clouds: ${clouds.all}%</p>
           </li>
           <li>
-           <h3>${main.temp.toFixed(1)} <sup>&#176;</sup></h3>
+           <h3>${main.temp.toFixed(1)} C<sup>&#176;</sup></h3>
         <div class="temp-container">
         <div>
             <h4 class="title">min</h4>
-            <h4 class="temp">${main.temp_min.toFixed(1)}<sup>&#176;</sup></h4>
+            <h4 class="temp">${main.temp_min.toFixed(1)} C<sup>&#176;</sup></h4>
         </div>
         <div>
             <h4 class="title">max</h4>
-            <h4 class="temp">${main.temp_max.toFixed(1)}<sup>&#176;</sup></h4>
+            <h4 class="temp">${main.temp_max.toFixed(1)} С<sup>&#176;</sup></h4>
         </div>
         </div>
           </li>
