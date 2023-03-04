@@ -68,16 +68,28 @@ export function setBackground(query) {
 
       if (dayHour >= 11 && dayHour <= 17) {
         document.body.style = `background: linear-gradient(rgba(0, 0, 0, 0),  rgba(255, 247, 3, 0.5)),
-      url('${src}') center fixed; background-size: cover;`;
+      url('${src}'); background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;`;
       } else if (dayHour >= 5 && dayHour <= 11) {
         document.body.style = `background: linear-gradient(rgba(0, 0, 0, 0), rgba(2, 107, 220, 0.5)),
-      url('${src}') center fixed; background-size: cover;`;
+      url('${src}'); background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;`;
       } else if (dayHour >= 18 && dayHour <= 23) {
         document.body.style = `background: linear-gradient(rgba(0, 0, 0, 0), rgba(104, 24, 2, 0.5)),
-      url('${src}') center fixed; background-size: cover;`;
+      url('${src}'); background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;`;
       } else {
         document.body.style = `background: linear-gradient(rgba(0, 0, 0, 0), rgba(32, 1, 85, 0.5)),
-      url('${src}') center fixed; background-size: cover;`;
+      url('${src}'); background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;`;
       }
     })
     .catch(error => {
