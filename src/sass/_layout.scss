@@ -67,19 +67,19 @@
   grid-template-columns: 9fr 3fr;
   gap: 1.25em;
   padding: 8px;
-  width: 100%;
+  max-width: 100%;
   border-radius: .5rem;
   box-shadow: -3px -3px 20px #fff, 5px 5px 20px #919dcc;
   font-size: 1em;
   text-shadow: .0625rem .0625rem .0625rem #fff;
 
   &:hover {
-    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+    box-shadow: -1px -1px 12px #fff, 1px 1px 12px #babecc;
   }
 
   &:active {
     background-color: $off-white;
-    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+    box-shadow: inset 1px 1px 1px #babecc, inset -1px -1px 1px #fff;
   }
 }
 
@@ -115,12 +115,12 @@
 
   &:hover,
   &:focus {
-    box-shadow: -2px -2px 2.5px #fff, 2px 2px 2.5px #babecc;
+    box-shadow: inset 1px 1px 1px #babecc, inset -1px -1px 1px #fff;
     transform: scale(0.8);
   }
 
   &:active {
-    box-shadow: 1px 1px 1px #babecc, -1px -1px 1px #fff;
+    box-shadow: inset 1px 1px 1px #babecc, inset -1px -1px 1px #fff;
   }
 
 
