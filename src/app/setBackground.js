@@ -6,7 +6,7 @@ export function setBackground(query) {
   );
 
   const defaultImg =
-    'https://dreamdim.ua/wp-content/uploads/2022/03/rus_nax-1024x589.jpeg';
+    'https://ik.imagekit.io/irinavn2011/sunflowers-7122336.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1677946301169';
 
   const randomNumber = max => {
     return Math.floor(Math.random() * max);
@@ -28,16 +28,16 @@ export function setBackground(query) {
 
       if (dayHour >= 11 && dayHour <= 17) {
         document.body.style = `background: linear-gradient(rgba(0, 0, 0, 0),  rgba(255, 247, 3, 0.366)),
-  url('${src}') center fixed; background-size: cover;`;
+      url('${src}') center fixed; background-size: cover;`;
       } else if (dayHour >= 5 && dayHour <= 11) {
         document.body.style = `background: linear-gradient(rgba(0, 0, 0, 0), rgba(2, 107, 220, 0.647)),
-  url('${src}') center fixed; background-size: cover;`;
+      url('${src}') center fixed; background-size: cover;`;
       } else if (dayHour >= 18 && dayHour <= 23) {
         document.body.style = `background: linear-gradient(rgba(0, 0, 0, 0), rgba(104, 24, 2, 0.514)),
-  url('${src}') center fixed; background-size: cover;`;
+      url('${src}') center fixed; background-size: cover;`;
       } else {
         document.body.style = `background: linear-gradient(rgba(0, 0, 0, 0), rgba(32, 1, 85, 0.576)),
-  url('${src}') center fixed; background-size: cover;`;
+      url('${src}') center fixed; background-size: cover;`;
       }
     });
 }
