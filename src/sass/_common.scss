@@ -5,6 +5,8 @@ body {
     text-shadow: 1px 1px 0 #212121;
     font-family: 'Spectral', serif;
     overflow: hidden;
+    overflow-y: scroll;
+
 }
 
 h1,
@@ -22,13 +24,6 @@ ul.weather__list {
 
 li {
     margin: 0;
-
-}
-
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 p {

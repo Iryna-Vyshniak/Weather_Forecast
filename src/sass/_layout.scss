@@ -1,8 +1,14 @@
+.wrapper {
+  position: relative;
+  display: grid;
+  place-content: center;
+  margin: 10vh auto;
+  padding: 50px;
+}
+
 .weather {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -40%);
+  position: relative;
+  margin: 0 auto;
   max-width: 90vw;
 }
 
@@ -24,6 +30,11 @@
   border-radius: 0.6em;
   box-shadow: 0 1.8em 3.7em $shadow;
   text-align: center;
+}
+
+
+.weather__container {
+  min-height: calc($index * 12);
 }
 
 .shape {
