@@ -43,8 +43,8 @@ const handleSubmit = e => {
   setBackground(searchQuery);
 
   getWeatherByQuery(searchQuery)
+    //.then(data => (weatherList.innerHTML = createMarkup(data)))
     .then(data => (weatherList.innerHTML = createMarkup(data)))
-    // .then(data => (weatherList.innerHTML = createMarkup(data)))
     .catch(err => (weatherList.innerHTML = createErrorMarkup()));
 };
 
