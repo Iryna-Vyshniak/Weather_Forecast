@@ -1,7 +1,7 @@
 ## Weather Forecast
 - It`s a web-based application, built using JS.
 - Weather data for current locations
-- Unique background photos that change with the location.
+- Unique background photos that change with the location and time.
 - 100% responsive. 
 - Own creative design. 
 - Visually appealing, crisp graphics. 
