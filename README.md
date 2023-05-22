@@ -12,5 +12,5 @@
 This project was created with Parcel. For familiarization and setting additional
 features [refer to documentation.](https://parceljs.org/).
 <div align="center">
-  <img src="https://ik.imagekit.io/irinavn2011/2.png?updatedAt=1684618552594" width="1200" height="auto"/>
+  <img src="https://ik.imagekit.io/irinavn2011/weather.png?updatedAt=1684786986704" width="1200" height="auto"/>
 </div>
